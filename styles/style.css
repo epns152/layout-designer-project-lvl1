@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #2A2626;
+    line-height: 1.6em;
+    background-color: #F5F4F0;
+    width: 1110px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Neucha', cursive;
+    font-size: 72px;
+    line-height: 1.2em;
+}
+
+h2 {
+    font-family: 'Neucha', cursive;
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+h3 {
+    font-family: 'Neucha', cursive;
+    font-size: 34px;
+    line-height: 1.2em;
+}
+
+section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+header {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+footer {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #fff;
+}
+
+main {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #fff;
+}
