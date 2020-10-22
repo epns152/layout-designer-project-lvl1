@@ -56,7 +56,7 @@ header::before {
 
 header {
     position: relative;
-    
+    height: 960px;
 }
 
 footer {
@@ -126,4 +126,25 @@ p {
     font-weight: bolder;
     left: 570px;
     top: 220px;
+}
+
+h1.video_sec {
+    margin-bottom: 30px;
+}
+
+p.video_sec {
+    width: 100%;
+    text-align: center;
+}
+
+.video_sec {
+    top: -50px;
+    text-align: center;
+    position: relative;
+}
+
+.video {
+    position: relative;
+    top: -40px;
+    filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
