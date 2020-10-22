@@ -1,32 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
+* {
+    text-decoration: none;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     color: #2A2626;
     line-height: 1.6em;
     background-color: #F5F4F0;
-    width: 1110px;
-    text-align: center;
+    text-align: center; 
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1 {
     font-family: 'Neucha', cursive;
     font-size: 72px;
+    font-weight: 400;
     line-height: 1.2em;
+    text-align: left;
 }
 
 h2 {
     font-family: 'Neucha', cursive;
     font-size: 60px;
     line-height: 1.2em;
+    text-align: left;
 }
 
 h3 {
     font-family: 'Neucha', cursive;
     font-size: 34px;
     line-height: 1.2em;
+    text-align: left;
 }
 
 section {
@@ -34,9 +44,19 @@ section {
     margin-bottom: 100px;
 }
 
+header::before {
+    content: url(../images/background.png);
+    position: absolute;
+    left: 0;
+    top: -40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 10%;
+}
+
 header {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    position: relative;
+    
 }
 
 footer {
@@ -49,4 +69,61 @@ main {
     margin-top: 100px;
     margin-bottom: 100px;
     background-color: #fff;
+}
+
+.orange {
+    color: #fe8a02;
+}
+
+.first_heading {
+    left: 165px;
+    top: 60px;
+    
+    position: relative;
+    z-index: 2;
+}
+
+.first_img {
+    right: -100px;
+    top: 10px;
+    position: absolute;
+    z-index: 0;
+}
+
+p {
+    width: 540px;
+    text-align: left;
+}
+
+.text {
+    position: relative;
+    left: 165px;
+    width: 1110px;
+}
+
+.hed_im {
+    margin-bottom: 0px;
+    height: 525px;
+}
+
+#first_column {
+    width: 540px;
+    float: left;
+    position: relative;
+}
+
+#second_column {
+    position: absolute;
+    left: 570px;
+}
+
+.button {
+    padding: 10px 24px;
+    background-color: #fe8a02;
+    color: #fff;
+    position: absolute;
+    width: 90px;
+    font-weight: bolder;
+    left: 570px;
+    top: 220px;
 }
